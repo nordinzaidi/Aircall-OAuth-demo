@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Aircall Weather | Install</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  </head>
+  <body>
+    <div class="content">
+      <div class="content-block">
+        <header>
+          <img src="/logo.svg" class="logo" />
+          <div>
+            <h1>Weather</h1>
+            <small>by aircall</small>
+          </div>
+          <div class="header-success">
+            Installed!
+          </div>
+        </header>
+ 
+        <img src="/phone.png" class="phone" />
+ 
+        <p>
+          The <strong>Weather app</strong> is now installed on your Aircall phone!
+        </p>
+        <p>
+          It will fetch weather information from Australia, Belgium, Brazil,
+          Canada, France, Germany, Great Britain, Ireland, Itlay, Mexico, Morocco, Netherlands,
+          Spain, Sweden, Switzerland and USA.
+        </p>
+ 
+        <p>
+          <strong>Next step:</strong> configure the Numbers you want your integration to be linked on in your Aircall Dashboard! Only agents with the associated numbers will see weather insights.
+        </p>
+ 
+        <button onclick="onClose()">
+          Link your Numbers now
+        </button>
+ 
+        <p class="note">
+          <strong>Note:</strong> the Weather app will do its best to match a
+          city/region with each of your contacts' phone number. If a phone
+          number can't be geo-located (like mobile, toll-free...), the Weather
+          card won't be displayed during the call. Available countries are
+          listed above and below!
+        </p>
+ 
+        <p class="countries">
+          🇦🇺 🇧🇪 🇧🇷 🇨🇦 🇫🇷 🇩🇪 🇬🇧 🇮🇪 🇮🇹 🇲🇽 🇲🇦 🇳🇱 🇪🇸 🇸🇪 🇨🇭 🇺🇸
+        </p>
+      </div>
+    </div>
+ 
+    <script type="text/javascript">
+      const onClose = () => {
+        !!window.close && window.close();
+        window.location.href = '/oauth/success';
+      };
+    </script>
+  </body>
+</html>

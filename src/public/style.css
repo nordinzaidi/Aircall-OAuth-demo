@@ -1,0 +1,181 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+code,
+img,
+strong,
+button,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+ 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fellix', -apple-system, Helvetica Neue, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+}
+ 
+html,
+body {
+  height: 100%;
+  color: #666d73;
+}
+ 
+::-moz-selection {
+  background: rgba(48, 113, 201, 0.1);
+}
+::selection {
+  background: rgba(48, 113, 201, 0.1);
+}
+ 
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+}
+ 
+.content-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+  background: white;
+  border-radius: 4px;
+  width: 80%;
+  max-width: 500px;
+}
+ 
+h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #111;
+}
+ 
+header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  user-select: none;
+}
+header div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+header img.logo {
+  width: 40px;
+  margin-right: 20px;
+}
+header small {
+  margin-left: 0.4em;
+  font-size: 0.7em;
+}
+header .header-success {
+  text-align: right;
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #307fe2;
+}
+p {
+  text-align: justify;
+  margin-top: 10px;
+  line-height: 1.4;
+}
+p.center {
+  text-align: center;
+}
+p.note {
+  font-size: 0.8em;
+  color: #aaa;
+}
+p.countries {
+  text-align: center;
+  opacity: 0.8;
+}
+strong {
+  font-weight: 700;
+}
+ 
+img.phone {
+  min-height: 100px;
+  width: 130px;
+  margin: 0 auto;
+  user-select: none;
+}
+ 
+button {
+  display: block;
+  background-color: #307fe2;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.1s ease-in-out;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  user-select: none;
+  cursor: pointer;
+}
+ 
+button:hover {
+  background-color: #3071c9;
+}
+ 
+@font-face {
+  font-family: 'Fellix';
+  src: url('https://cdn.aircall.io/fonts/Fellix-Thin.otf');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fellix';
+  src: url('https://cdn.aircall.io/fonts/Fellix-Light.otf');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fellix';
+  src: url('https://cdn.aircall.io/fonts/Fellix-Regular.otf');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fellix';
+  src: url('https://cdn.aircall.io/fonts/Fellix-Medium.otf');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fellix';
+  src: url('https://cdn.aircall.io/fonts/Fellix-SemiBold.otf');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fellix';
+  src: url('https://cdn.aircall.io/fonts/Fellix-Bold.otf');
+  font-weight: 900;
+  font-style: normal;
+}
