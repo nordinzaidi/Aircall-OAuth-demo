@@ -13,10 +13,10 @@ This first version contains some of the code of the original version but not all
 
 ## Installation
 
-1 . Clone repository
-2 . Install [Node.js](https://nodejs.org/en/)
-3 . run `npm install`
-4 . Update `.env` file
+1. Clone repository
+2. Install [Node.js](https://nodejs.org/en/)
+3. run `npm install`
+4. Update `.env` file
 
 4.1 For developement environments...
 ```sh
@@ -38,7 +38,7 @@ AIRCALL_OAUTH_SECRET="123abc"
 ```
 
 4.4 other Env variables. 
-The env file has other variables for API and DB use but right now we are not going to use it so until we enable more features in future releases of this App those won't work well.Of course, you are free to explore and play with the code if you want and then those should work just fine. :) 
+The env file has other variables for API and DB use but right now we are not going to use it so until we enable more features in future releases of this App those won't work well. Of course, you are free to explore and play with the code if you want and then those should work just fine. :) 
 
 5 . You can serve it with `npm start`
 
