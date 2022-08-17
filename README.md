@@ -16,7 +16,7 @@ This first version contains some of the code of the original version but not all
 1. Clone repository
 2. Install [Node.js](https://nodejs.org/en/)
 3. run `npm install`
-4. Update `.env` file
+4. Update `.env` file (make sure to rename it too!)
 
 4.1 For developement environments...
 ```sh
